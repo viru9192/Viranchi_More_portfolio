@@ -2,8 +2,6 @@
 
 A modern, responsive portfolio website showcasing my projects, skills, and experience as a Data Analyst and Full Stack Developer.
 
-![Portfolio Preview](src/assets/port1.jpg)
-
 ## 🚀 Features
 
 - **Modern Design**: Clean and professional UI with smooth animations
@@ -40,31 +38,20 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
    - Machine learning pipeline for detecting fraudulent job postings
    - NLP and classification models with XGBoost
    - Streamlit deployment with real-time predictions
-   - [View Project](https://job-posting-analyzer.streamlit.app)
+   - [GitHub Repository](https://github.com/viru9192/job-posting-analyzer)
 
-2. **MeToo Twitter Analysis**
-   - Sentiment and topic modeling on Twitter data
-   - Analysis of 390,000+ tweets
-   - Research paper on digital movement evolution
-   - [View Project](https://github.com/viru9192/MeToo-Twitter-Analysis.git)
+2. **Portfolio Website**
+   - Modern, responsive portfolio website built with React
+   - Features smooth animations and interactive components
+   - [GitHub Repository](https://github.com/viru9192/Viranchi_More_portfolio)
 
-3. **Olympic Medal Trends Analysis**
-   - Data analysis of Olympic performance
-   - EDA and visualization of medal trends
-   - Statistical analysis of athlete performance
-   - [View Project](https://github.com/viranchi-more/olympic-analysis)
+3. **Project 2**
+   - Description of your second project
+   - [GitHub Repository](https://github.com/viru9192/project2)
 
-4. **Survey Application**
-   - Full-stack web application
-   - Django backend with PostgreSQL
-   - Dynamic frontend with JavaScript
-   - [View Project](https://github.com/pbillava10/TDS537-SurveyApplication.git)
-
-5. **House Price Prediction System**
-   - Machine learning model for real estate
-   - Random Forest implementation
-   - 80% prediction accuracy
-   - [View Project](https://github.com/viranchi-more/house-price-prediction)
+4. **Project 3**
+   - Description of your third project
+   - [GitHub Repository](https://github.com/viru9192/project3)
 
 ## 🎯 Skills Highlighted
 
@@ -85,6 +72,45 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
   - Docker
   - AWS
   - CI/CD
+
+## 🎓 Education
+
+- **State University of New York at Binghamton**
+  - Masters in Information Systems
+  - Aug 2024 - May 2026
+  - GPA: 3.7/4.0
+
+- **University of Mumbai**
+  - B.E. in Electronics Engineering
+  - Aug 2017 - Jun 2021
+  - GPA: 7.4/10
+
+## 💼 Experience
+
+- **Binghamton University**
+  - Graduate Research Assistant
+  - Jan 2025 - Present
+  - Statistical data analysis, report automation, and data visualization
+
+- **Tata Consultancy Services**
+  - System Engineer
+  - Jun 2023 - Jun 2024
+  - Oracle database management, SQL/PL/SQL development, performance tuning
+
+- **Tata Consultancy Services**
+  - Assistant System Engineer
+  - Jun 2021 - Sep 2023
+  - Database support, SQL optimization, technical documentation
+
+- **Unschool**
+  - Data Analyst Intern
+  - Aug 2020 - Oct 2020
+  - Marketing campaign analysis, interactive dashboards, SEO optimization
+
+- **CITYFURNISH**
+  - Data Analyst Intern
+  - Jul 2020 - Aug 2020
+  - ML implementation, Agile practices, marketing analytics
 
 ## 🚀 Getting Started
 
@@ -130,7 +156,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Icons by [React Icons](https://react-icons.github.io/react-icons/)
-- Images from [Unsplash](https://unsplash.com/)
 - Design inspiration from various portfolio websites
 
 ---
