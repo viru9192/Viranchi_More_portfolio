@@ -183,19 +183,19 @@ const About = () => {
             <Title variants={itemVariants}>About Me</Title>
             <Bio>
               <Paragraph variants={itemVariants}>
-                Hi, I'm Viranchi More, a Master's student in Information Systems at SUNY Binghamton with 3+ years of experience as a Data Analyst and System Engineer.
+                Hi, I&apos;m Viranchi More, a Master&apos;s student in Information Systems at SUNY Binghamton with 3+ years of experience as a Data Analyst and System Engineer.
               </Paragraph>
               <Paragraph variants={itemVariants}>
                 At Tata Consultancy Services, I specialized in SQL optimization, PL/SQL development, and Oracle RDBMS management, enhancing data efficiency and reliability for clients like the State Bank of India.
               </Paragraph>
               <Paragraph variants={itemVariants}>
-                I'm proficient in Python, Tableau, Power BI, and statistical analysis, with expertise in machine learning and sentiment analysis, showcased in my research on #MeToo narratives on Twitter.
+                I&apos;m proficient in Python, Tableau, Power BI, and statistical analysis, with expertise in machine learning and sentiment analysis, showcased in my research on #MeToo narratives on Twitter.
               </Paragraph>
               <Paragraph variants={itemVariants}>
                 I combine technical skills and innovative thinking to optimize workflows, create impactful visualizations, and deliver measurable results.
               </Paragraph>
               <Paragraph variants={itemVariants}>
-                Let's transform data into innovation together!
+                Let&apos;s transform data into innovation together!
               </Paragraph>
             </Bio>
           </Content>

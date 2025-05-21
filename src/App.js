@@ -22,10 +22,19 @@ const App = () => {
       <ThemeProvider>
         <Helmet>
           <title>Viranchi More | Data Analyst</title>
-          <meta name="description" content="I'm a data analyst with 3+ years of experience, showcasing my journey through projects in SQL, Python, machine learning, and data visualization, backed by graduate research at Binghamton University." />
-          <meta name="keywords" content="Viranchi More, Data Analyst, Portfolio, Data Analysis, Business Intelligence" />
+          <meta
+            name="description"
+            content="I'm a data analyst with 3+ years of experience, showcasing my journey through projects in SQL, Python, machine learning, and data visualization, backed by graduate research at Binghamton University."
+          />
+          <meta
+            name="keywords"
+            content="Viranchi More, Data Analyst, Portfolio, Data Analysis, Business Intelligence"
+          />
           <meta property="og:title" content="Viranchi More | Data Analyst" />
-          <meta property="og:description" content="Portfolio website of Viranchi More, a Data Analyst specializing in data analysis, visualization, and business intelligence." />
+          <meta
+            property="og:description"
+            content="Portfolio website of Viranchi More, a Data Analyst specializing in data analysis, visualization, and business intelligence."
+          />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://viranchi-more.github.io" />
           <link rel="canonical" href="https://viranchi-more.github.io" />

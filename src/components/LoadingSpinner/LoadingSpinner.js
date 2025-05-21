@@ -50,7 +50,7 @@ const SpinnerCircle = styled.div`
 
   &:before,
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     border: 4px solid transparent;
     border-radius: 50%;
