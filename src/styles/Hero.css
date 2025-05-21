@@ -1,0 +1,272 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  background: linear-gradient(135deg, var(--clr-bg) 0%, var(--clr-bg-alt) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at top right, var(--clr-primary) 0%, transparent 70%);
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.hero .container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  min-height: calc(100vh - 70px);
+  padding: 2rem 0;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--clr-fg-alt);
+}
+
+.hero .highlight {
+  color: var(--clr-primary);
+  position: relative;
+  display: inline-block;
+}
+
+.hero .highlight::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background: var(--clr-primary);
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.hero .subtitle {
+  font-size: 1.5rem;
+  color: var(--clr-fg);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.hero .description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--clr-fg);
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.hero .btn.primary {
+  background: var(--clr-primary);
+  color: var(--clr-bg-alt);
+  box-shadow: 0 4px 15px rgba(var(--clr-primary-rgb), 0.3);
+}
+
+.hero .btn.secondary {
+  background: transparent;
+  color: var(--clr-fg-alt);
+  border: 2px solid var(--clr-primary);
+}
+
+.hero .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(var(--clr-primary-rgb), 0.4);
+}
+
+.hero .btn.secondary:hover {
+  background: var(--clr-primary);
+  color: var(--clr-bg-alt);
+}
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social-links a {
+  color: var(--clr-fg);
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  color: var(--clr-primary);
+  transform: translateY(-2px);
+}
+
+.hero-image {
+  flex: 1;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-placeholder {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: var(--clr-bg-alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  border: 4px solid var(--clr-primary);
+}
+
+.profile-placeholder i {
+  font-size: 8rem;
+  color: var(--clr-primary);
+  opacity: 0.5;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .hero-content {
+    gap: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero-image {
+    max-width: 350px;
+  }
+
+  .profile-placeholder {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .hero-image {
+    max-width: 300px;
+  }
+
+  .profile-placeholder {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .hero .description {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero .btn {
+    width: 100%;
+  }
+
+  .hero-image {
+    max-width: 250px;
+  }
+
+  .profile-placeholder {
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile-placeholder i {
+    font-size: 6rem;
+  }
+}
+
+/* Dark mode adjustments */
+.App.dark .hero::before {
+  opacity: 0.05;
+}
+
+.App.dark .hero .highlight::after {
+  opacity: 0.3;
+}
+
+.App.dark .profile-placeholder {
+  background: var(--clr-bg);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.App.dark .profile-placeholder i {
+  opacity: 0.7;
+}

@@ -1,0 +1,136 @@
+.skills {
+  padding: 2rem 0;
+}
+
+.skills-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.skill-group {
+  background: var(--clr-bg-alt);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.skill-group h3 {
+  font-size: 1.5rem;
+  color: var(--clr-fg-alt);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.skill-group h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 3px;
+  background: var(--clr-primary);
+  border-radius: 2px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1.5rem;
+  background: var(--clr-bg);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.skill-item i {
+  font-size: 2.5rem;
+  color: var(--clr-primary);
+}
+
+.skill-item span {
+  font-size: 0.9rem;
+  color: var(--clr-fg);
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .skill-item {
+    padding: 1.2rem;
+  }
+
+  .skill-item i {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .skill-group {
+    padding: 1.5rem;
+  }
+
+  .skill-group h3 {
+    font-size: 1.3rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 1rem;
+  }
+
+  .skill-item {
+    padding: 1rem;
+  }
+
+  .skill-item i {
+    font-size: 1.8rem;
+  }
+
+  .skill-item span {
+    font-size: 0.8rem;
+  }
+}
+
+/* Dark mode adjustments */
+.App.dark .skill-group {
+  background: var(--clr-bg);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.App.dark .skill-item {
+  background: var(--clr-bg-alt);
+}
+
+.App.dark .skill-item:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.App.dark .skill-item i {
+  color: var(--clr-primary);
+}
+
+.App.dark .skill-item span {
+  color: var(--clr-fg);
+}

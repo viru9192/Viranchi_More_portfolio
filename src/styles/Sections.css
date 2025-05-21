@@ -1,0 +1,248 @@
+/* Base section styles */
+.section {
+  padding: 6rem 0;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at top right, var(--clr-primary) 0%, transparent 70%);
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* Section specific styles */
+#hero {
+  min-height: 100vh;
+  padding: 0;
+  background: var(--clr-bg);
+}
+
+#about {
+  background: var(--clr-bg-alt);
+}
+
+#skills {
+  background: var(--clr-bg);
+}
+
+#projects {
+  background: var(--clr-bg-alt);
+}
+
+#education {
+  background: var(--clr-bg);
+}
+
+#experience {
+  background: var(--clr-bg-alt);
+}
+
+#contact {
+  background: var(--clr-bg);
+}
+
+/* Component specific styles */
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--clr-fg);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skill-item {
+  background: var(--clr-bg-alt);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+}
+
+.skill-item i {
+  font-size: 2.5rem;
+  color: var(--clr-primary);
+  margin-bottom: 1rem;
+}
+
+.skill-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--clr-fg-alt);
+}
+
+.skill-item p {
+  color: var(--clr-fg);
+  font-size: 0.9rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: var(--clr-bg-alt);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  padding: 1.5rem 1.5rem 0.5rem;
+  font-size: 1.2rem;
+  color: var(--clr-fg-alt);
+}
+
+.project-card p {
+  padding: 0 1.5rem 1.5rem;
+  color: var(--clr-fg);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.project-links {
+  padding: 0 1.5rem 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.project-links .btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--clr-primary);
+  color: var(--clr-bg-alt);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.project-links .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(var(--clr-primary-rgb), 0.3);
+}
+
+.project-links .btn i {
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .section {
+    padding: 5rem 0;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 4rem 0;
+  }
+
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  .skills-grid,
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-content {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .project-card img {
+    height: 180px;
+  }
+}
+
+/* Dark mode adjustments */
+.App.dark .section::before {
+  opacity: 0.03;
+}
+
+.App.dark .skill-item,
+.App.dark .project-card {
+  background: var(--clr-bg-alt);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.App.dark .skill-item h3 {
+  color: var(--clr-fg-alt);
+}
+
+.App.dark .skill-item p,
+.App.dark .project-card p {
+  color: var(--clr-fg);
+}
+
+.App.dark .project-card h3 {
+  color: var(--clr-fg-alt);
+}
+
+.App.dark .project-links .btn {
+  background: var(--clr-primary);
+  color: var(--clr-bg-alt);
+}
+
+.App.dark .project-links .btn:hover {
+  box-shadow: 0 4px 15px rgba(var(--clr-primary-rgb), 0.4);
+}

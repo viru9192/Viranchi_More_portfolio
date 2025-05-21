@@ -1,0 +1,11 @@
+# Ignore components directory
+src/components/**/*
+
+# Ignore build files
+build/
+dist/
+node_modules/
+
+# Ignore package files
+package.json
+package-lock.json
