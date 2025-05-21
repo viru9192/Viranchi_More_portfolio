@@ -35,23 +35,34 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 ## 📦 Projects Showcased
 
 1. **Job Posting Analyzer – Fake Job Detection System**
-   - Machine learning pipeline for detecting fraudulent job postings
-   - NLP and classification models with XGBoost
-   - Streamlit deployment with real-time predictions
-   - [GitHub Repository](https://github.com/viru9192/job-posting-analyzer)
+   - Developed a machine learning pipeline to detect fraudulent job postings using NLP and classification models
+   - Applied TF-IDF vectorization, feature engineering, and SMOTE to handle class imbalance
+   - XGBoost model achieved ~88% F1-score for fake class and >95% AUC
+   - [GitHub Repository](https://github.com/viru9192/Job_Posting_Analyzer.git)
 
-2. **Portfolio Website**
-   - Modern, responsive portfolio website built with React
-   - Features smooth animations and interactive components
-   - [GitHub Repository](https://github.com/viru9192/Viranchi_More_portfolio)
+2. **MeToo Twitter Analysis**
+   - Research paper examining #MeToo Twitter conversations using sentiment and topic modeling
+   - Analyzed over 390,000 tweets to identify key themes and movement evolution
+   - Implemented sentiment analysis and topic modeling techniques
+   - [GitHub Repository](https://github.com/viru9192/MeToo-Twitter-Analysis.git)
 
-3. **Project 2**
-   - Description of your second project
-   - [GitHub Repository](https://github.com/viru9192/project2)
+3. **Olympic Medal Trends Analysis**
+   - Data analysis project extracting patterns and trends from Olympic data
+   - Conducted in-depth Exploratory Data Analysis (EDA) of medal trends
+   - Analyzed individual performance and national accomplishments
+   - [GitHub Repository](https://github.com/viranchi-more/olympic-analysis)
 
-4. **Project 3**
-   - Description of your third project
-   - [GitHub Repository](https://github.com/viru9192/project3)
+4. **Survey Application**
+   - Web-based platform for creating, managing, and participating in surveys
+   - Built with Django backend and PostgreSQL database
+   - Dynamic frontend using HTML, CSS, and JavaScript
+   - [GitHub Repository](https://github.com/pbillava10/TDS537-SurveyApplication.git)
+
+5. **House Price Prediction System**
+   - Machine learning model to predict housing prices with 80% accuracy
+   - Implemented using Random Forest algorithm
+   - Includes comprehensive EDA and preprocessing techniques
+   - [GitHub Repository](https://github.com/viranchi-more/house-price-prediction)
 
 ## 🎯 Skills Highlighted
 
