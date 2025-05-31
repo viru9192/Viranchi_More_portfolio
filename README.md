@@ -1,6 +1,6 @@
 # Viranchi More - Portfolio Website
 
-A modern, responsive portfolio website showcasing my projects, skills, and experience as a Data Analyst and Full Stack Developer.
+A modern, responsive portfolio website showcasing my projects, skills, and experience as a Data Analyst and Database Developer.
 
 ## 🚀 Features
 
