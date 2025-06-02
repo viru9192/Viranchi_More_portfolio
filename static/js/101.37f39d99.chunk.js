@@ -1,4 +1,4 @@
-"use strict";(self.webpackChunkviranchi_more_portfolio=self.webpackChunkviranchi_more_portfolio||[]).push([[903],{246:(e,r,i)=>{i.r(r),i.d(r,{default:()=>A});var a=i(950),n=i(937),t=i(539),o=i(291),l=i(875);const c=i.p+"static/media/vir1.512aaaf6096cf43fd038.jpg";var s=i(414);const d=n.Ay.section`
+"use strict";(self.webpackChunkviranchi_more_portfolio=self.webpackChunkviranchi_more_portfolio||[]).push([[101],{944:(e,r,i)=>{i.r(r),i.d(r,{default:()=>A});var a=i(950),n=i(937),t=i(539),o=i(291),l=i(875);const c=i.p+"static/media/prof3.33ad266c4debb8fa2431.jpg";var s=i(414);const d=n.Ay.section`
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -70,7 +70,7 @@
   margin-bottom: 2rem;
   flex-wrap: wrap;
   justify-content: center;
-`,u=(0,n.Ay)(t.P.a)`
+`,b=(0,n.Ay)(t.P.a)`
   padding: 0.9rem 2.2rem;
   font-size: 1.05rem;
   color: var(--background);
@@ -86,7 +86,7 @@
     background: linear-gradient(90deg, var(--primary-dark) 60%, var(--primary) 100%);
     box-shadow: 0 4px 24px rgba(37, 99, 235, 0.15);
   }
-`,b=(0,n.Ay)(u)`
+`,u=(0,n.Ay)(b)`
   background: linear-gradient(90deg, var(--secondary) 60%, var(--primary) 100%);
   color: var(--background);
   &:hover {
@@ -103,4 +103,4 @@
   &:hover {
     color: var(--primary);
   }
-`,k=["Data Analyst","SQL Developer","Business Intelligence Analyst","Data Engineer","Data Scientist","BI Developer","Python Developer","Machine Learning Engineer","Data Visualization Expert"],A=()=>{const[e,r]=(0,a.useState)(0);return(0,a.useEffect)((()=>{const e=setInterval((()=>{r((e=>(e+1)%k.length))}),3e3);return()=>clearInterval(e)}),[]),(0,s.jsx)(d,{id:"hero",children:(0,s.jsxs)(h,{children:[(0,s.jsx)(p,{children:(0,s.jsx)(g,{src:c,alt:"Viranchi More profile",loading:"eager"})}),(0,s.jsx)(m,{initial:{opacity:0,y:30},animate:{opacity:1,y:0},transition:{duration:.7},children:"Hi, I'm Viranchi More"}),(0,s.jsx)(y,{children:(0,s.jsx)(o.N,{mode:"wait",children:(0,s.jsx)(x,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},exit:{opacity:0,y:-20},transition:{duration:.7},children:k[e]},e)})}),(0,s.jsx)(v,{initial:{opacity:0,y:30},animate:{opacity:1,y:0},transition:{duration:.7,delay:.4},children:"I'm a data analyst with 3+ years of experience, showcasing my journey through projects in SQL, Python, machine learning, and data visualization, backed by graduate research at Binghamton University."}),(0,s.jsxs)(f,{children:[(0,s.jsx)(u,{href:"#projects",whileHover:{scale:1.05},whileTap:{scale:.95},children:"View My Work"}),(0,s.jsx)(b,{href:"#contact",whileHover:{scale:1.05},whileTap:{scale:.95},children:"Contact Me"})]}),(0,s.jsxs)(w,{children:[(0,s.jsx)(j,{href:"https://github.com/viru9192",target:"_blank",rel:"noopener noreferrer",whileHover:{scale:1.2},whileTap:{scale:.95},"aria-label":"GitHub",children:(0,s.jsx)(l.hL4,{})}),(0,s.jsx)(j,{href:"https://linkedin.com/in/viranchimore",target:"_blank",rel:"noopener noreferrer",whileHover:{scale:1.2},whileTap:{scale:.95},"aria-label":"LinkedIn",children:(0,s.jsx)(l.QEs,{})}),(0,s.jsx)(j,{href:"https://twitter.com/viranchi_more",target:"_blank",rel:"noopener noreferrer",whileHover:{scale:1.2},whileTap:{scale:.95},"aria-label":"Twitter",children:(0,s.jsx)(l.feZ,{})})]})]})})}}}]);
+`,k=["Data Analyst","SQL Developer","Business Intelligence Analyst","Data Engineer","Data Scientist","BI Developer","Python Developer","Machine Learning Engineer","Data Visualization Expert"],A=()=>{const[e,r]=(0,a.useState)(0);return(0,a.useEffect)((()=>{const e=setInterval((()=>{r((e=>(e+1)%k.length))}),3e3);return()=>clearInterval(e)}),[]),(0,s.jsx)(d,{id:"hero",children:(0,s.jsxs)(h,{children:[(0,s.jsx)(p,{children:(0,s.jsx)(g,{src:c,alt:"Viranchi More profile",loading:"eager"})}),(0,s.jsx)(m,{initial:{opacity:0,y:30},animate:{opacity:1,y:0},transition:{duration:.7},children:"Hi, I'm Viranchi More"}),(0,s.jsx)(y,{children:(0,s.jsx)(o.N,{mode:"wait",children:(0,s.jsx)(x,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},exit:{opacity:0,y:-20},transition:{duration:.7},children:k[e]},e)})}),(0,s.jsx)(v,{initial:{opacity:0,y:30},animate:{opacity:1,y:0},transition:{duration:.7,delay:.4},children:"I'm a data analyst with 3+ years of experience, showcasing my journey through projects in SQL, Python, machine learning, and data visualization, backed by graduate research at Binghamton University."}),(0,s.jsxs)(f,{children:[(0,s.jsx)(b,{href:"#projects",whileHover:{scale:1.05},whileTap:{scale:.95},children:"View My Work"}),(0,s.jsx)(u,{href:"#contact",whileHover:{scale:1.05},whileTap:{scale:.95},children:"Contact Me"})]}),(0,s.jsxs)(w,{children:[(0,s.jsx)(j,{href:"https://github.com/viru9192",target:"_blank",rel:"noopener noreferrer",whileHover:{scale:1.2},whileTap:{scale:.95},"aria-label":"GitHub",children:(0,s.jsx)(l.hL4,{})}),(0,s.jsx)(j,{href:"https://linkedin.com/in/viranchimore",target:"_blank",rel:"noopener noreferrer",whileHover:{scale:1.2},whileTap:{scale:.95},"aria-label":"LinkedIn",children:(0,s.jsx)(l.QEs,{})}),(0,s.jsx)(j,{href:"https://twitter.com/viranchi_more",target:"_blank",rel:"noopener noreferrer",whileHover:{scale:1.2},whileTap:{scale:.95},"aria-label":"Twitter",children:(0,s.jsx)(l.feZ,{})})]})]})})}}}]);
