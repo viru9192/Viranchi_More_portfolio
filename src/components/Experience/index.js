@@ -176,40 +176,58 @@ const Experience = () => {
       date: "January 2025 - Present",
       title: "Graduate Research Assistant",
       company: "Binghamton University",
-      description: "Conducting research in data analysis and information systems.",
+      description: (
+        <>
+          • Created and implemented machine learning models using Scikit-learn and PyTorch for anomaly detection in real-world log data. <br />
+          • Constructed end-to-end ML pipelines for preprocessing, training, and evaluation, improving automation and reproducibility. <br />
+          • Reviewed literature to assess model suitability and incorporated findings into model selection and documentation. <br />
+          • Participated with researchers to validate results and optimized data workflows using Python, reducing manual effort by 30%.
+        </>
+      ),
       align: "right"
     },
     {
       icon: <FaBriefcase />,
-      date: "June 2023 - June 2024",
+      date: "June 2021 - June 2024",
       title: "System Engineer",
       company: "Tata Consultancy Services",
-      description: "Specialized in SQL optimization, PL/SQL development, and Oracle RDBMS management for State Bank of India.",
+      description: (
+        <>
+          • Designed and maintained Oracle databases, ensuring seamless data integration with 99.9% uptime. <br />
+          • Optimized ETL pipelines to handle large-scale datasets, improving query efficiency by 25%. <br />
+          • Published dashboards in Tableau and Power BI, streamlining real-time metric tracking for business stakeholders. <br />
+          • Collaborated with cross-functional teams to deploy data-driven solutions for regulated environments.
+        </>
+      ),
       align: "left"
-    },
-    {
-      icon: <FaBriefcase />,
-      date: "June 2021 - September 2023",
-      title: "Assistant System Engineer",
-      company: "Tata Consultancy Services",
-      description: "Worked on core banking solutions and data management systems.",
-      align: "right"
     },
     {
       icon: <FaBriefcase />,
       date: "August 2020 - October 2020",
       title: "Data Analyst Intern",
       company: "Unschool",
-      description: "Analyzed educational data and created visualizations for student performance metrics.",
-      align: "left"
+      description: (
+        <>
+          • Leveraged Excel and Power BI for data cleaning and analysis, optimizing marketing campaign ROI by 22% and improving lead generation outcomes. <br />
+          • Developed and maintained interactive dashboards to communicate key data insights, enhancing decision-making for stakeholders. <br />
+          • Conducted in-depth statistical analysis to optimize SEO strategies, contributing to a 30% growth in web traffic and boosting revenue by 15%.
+        </>
+      ),
+      align: "right"
     },
     {
       icon: <FaBriefcase />,
       date: "July 2020 - August 2020",
       title: "Data Analyst Intern",
       company: "Cityfurnish",
-      description: "Worked on data analysis and reporting for business operations.",
-      align: "right"
+      description: (
+        <>
+          • Collaborated with a cross-functional team to implement machine learning models, improving the accuracy of data predictions by 18%. <br />
+          • Applied Agile methodologies to create and present detailed data reports, helping to streamline communication and boost project efficiency. <br />
+          • Utilized statistical tools to enhance media analytics, increasing demand generation and supporting overall marketing strategy improvements.
+        </>
+      ),
+      align: "left"
     }
   ];
 

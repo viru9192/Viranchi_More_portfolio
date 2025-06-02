@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import profileImage from '../../assets/vir1.jpg';
+import profileImage from '../../assets/prof3.jpg';
 
 const HeroSection = styled.section`
   min-height: 100vh;
