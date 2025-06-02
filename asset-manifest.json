@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Viranchi_More_portfolio/static/js/main.c0a1cfea.js",
-    "static/js/101.37f39d99.chunk.js": "/Viranchi_More_portfolio/static/js/101.37f39d99.chunk.js",
+    "main.js": "/Viranchi_More_portfolio/static/js/main.8d06cd24.js",
+    "static/js/382.4e9d8356.chunk.js": "/Viranchi_More_portfolio/static/js/382.4e9d8356.chunk.js",
     "static/js/752.985f8bb9.chunk.js": "/Viranchi_More_portfolio/static/js/752.985f8bb9.chunk.js",
     "static/js/169.018f82d0.chunk.js": "/Viranchi_More_portfolio/static/js/169.018f82d0.chunk.js",
     "static/js/656.897b5e0e.chunk.js": "/Viranchi_More_portfolio/static/js/656.897b5e0e.chunk.js",
@@ -16,10 +16,10 @@
     "static/media/tw1.jpg": "/Viranchi_More_portfolio/static/media/tw1.a3a2b45902c37c2242fb.jpg",
     "static/media/ol1.jpg": "/Viranchi_More_portfolio/static/media/ol1.06cf1349fa905f0f8a99.jpg",
     "static/media/hp3.jpg": "/Viranchi_More_portfolio/static/media/hp3.99ed47859b7e30a816c9.jpg",
-    "static/media/prof3.jpg": "/Viranchi_More_portfolio/static/media/prof3.33ad266c4debb8fa2431.jpg",
+    "static/media/im3.jpg": "/Viranchi_More_portfolio/static/media/im3.8864d09dafc5d4f13f7a.jpg",
     "index.html": "/Viranchi_More_portfolio/index.html"
   },
   "entrypoints": [
-    "static/js/main.c0a1cfea.js"
+    "static/js/main.8d06cd24.js"
   ]
 }
