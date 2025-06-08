@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import profileImage from '../../assets/im3.jpg';
+import resumePDF from '../../assets/Resume_Viranchi_More.pdf';
 
 const HeroSection = styled.section`
   min-height: 100vh;
@@ -209,6 +210,15 @@ const Hero = () => {
           >
             Contact Me
           </ButtonAlt>
+          <Button
+            href={resumePDF}
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Resume
+          </Button>
         </ButtonGroup>
         <SocialLinks>
           <SocialLink

@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './Hero.css';
+import resumePDF from '../../assets/Resume_Viranchi_More.pdf';
 
 const Hero = () => {
   return (
@@ -56,6 +57,16 @@ const Hero = () => {
             aria-label="Contact me"
           >
             Contact Me
+          </a>
+          <a 
+            href={resumePDF}
+            className="btn primary"
+            role="button"
+            aria-label="View Resume"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Resume
           </a>
         </motion.div>
         <motion.div
